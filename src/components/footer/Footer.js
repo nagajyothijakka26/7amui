@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import styles from "./Footer.module.css";
 export const Footer=()=>{
-    return <div>Footer</div>
+    return <div className={`bg-primary text-center ${styles.footer}`}>&copy; rights belogs to me.</div>;
 };
